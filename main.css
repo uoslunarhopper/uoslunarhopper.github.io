@@ -15,3 +15,8 @@
   .contact-card{
     height: 130px;
   }
+
+  .banner{
+    height: auto;
+    width: 100%;
+  }
