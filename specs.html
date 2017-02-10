@@ -24,14 +24,23 @@
 	<!-- FontAwseome for the social media icons -->
 	<script src="https://use.fontawesome.com/f6ca02b6b3.js"></script>
 
+	<!-- main.js -->
+	<script src="main.js"></script>
 	
 	
 	<header>
-	<nav>
+	<nav class="navbar">
 		<div class="nav-wrapper white">
 			<div class="container">
-				<a href="index.html" class="brand-logo left blue-text">UoS Lunar Hopper</a>
+				<a href="#!" data-activates="small-nav" class="button-collapse"><i class="blue-text material-icons">menu</i></a>
+				<a href="index.html" class="brand-logo blue-text">UoS Lunar Hopper</a>
 				<ul id="large-nav" class="right hide-on-med-and-down">
+					<li><a class="grey-text text-darken-2" href="history.html">History</a></li>
+					<li class="active"><a class="grey-text text-darken-2" href="specs.html">Specs</a></li>
+					<li><a class="grey-text text-darken-2" href="reports.html">Reports</a></li>
+				</ul>
+				<ul id="small-nav" class="side-nav">
+					<li><a class="grey-text text-darken-2" href="index.html">Home</a></li>
 					<li><a class="grey-text text-darken-2" href="history.html">History</a></li>
 					<li class="active"><a class="grey-text text-darken-2" href="specs.html">Specs</a></li>
 					<li><a class="grey-text text-darken-2" href="reports.html">Reports</a></li>

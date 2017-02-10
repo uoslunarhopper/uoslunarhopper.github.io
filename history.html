@@ -24,14 +24,23 @@
 	<!-- FontAwseome for the social media icons -->
 	<script src="https://use.fontawesome.com/f6ca02b6b3.js"></script>
 
+    <!-- main.js -->
+	<script src="main.js"></script>
 	
 	
 	<header>
-	<nav>
+	<nav class="navbar">
 		<div class="nav-wrapper white">
 			<div class="container">
-				<a href="index.html" class="brand-logo left blue-text">UoS Lunar Hopper</a>
+				<a href="#!" data-activates="small-nav" class="button-collapse"><i class="blue-text material-icons">menu</i></a>
+				<a href="index.html" class="brand-logo blue-text">UoS Lunar Hopper</a>
 				<ul id="large-nav" class="right hide-on-med-and-down">
+					<li class="active"><a class="grey-text text-darken-2" href="history.html">History</a></li>
+					<li><a class="grey-text text-darken-2" href="specs.html">Specs</a></li>
+					<li><a class="grey-text text-darken-2" href="reports.html">Reports</a></li>
+				</ul>
+				<ul id="small-nav" class="side-nav">
+					<li><a class="grey-text text-darken-2" href="index.html">Home</a></li>
 					<li class="active"><a class="grey-text text-darken-2" href="history.html">History</a></li>
 					<li><a class="grey-text text-darken-2" href="specs.html">Specs</a></li>
 					<li><a class="grey-text text-darken-2" href="reports.html">Reports</a></li>
@@ -42,7 +51,7 @@
 	</header>
 
     <main>
-        <div class="section white z-depth-1">
+        <div class="section white">
             <div class="container">
                 <h5 class="blue-text">A Soton tradition</h5>
                 <p class="flow-text">Starting as a 4th year group design project (GDP) project in 2012, the Lunar Hopper has seen continual development, and has been contributed to by over 30 of Southampton's engineering students.</p>
@@ -53,60 +62,62 @@
             </div>
         </div>
 
-        <div class="container">
-            <h5 class="blue-text">The Phase VI Team</h5>
-            <p class="flow-text">Each year of the Hopper's life has been designated as a 'Phase'. Now in it's sixth year, the Hopper is under development by the Phase VI Team, seen below.</p>
-            <div class="row">
-                <div class="col s4 offset-s1">
-                    <div class="card-panel grey lighten-5 z-depth-1 contact-card">
-                        <div class="row valign-wrapper">
-                            <div class="col s3">
-                                <img src="/img/jack.jpg" alt="" class="circle small-img responsive-image">
+        <div class="section white z-depth-1">
+            <div class="container">
+                <h5 class="blue-text">The Phase VI Team</h5>
+                <p class="flow-text">Each year of the Hopper's life has been designated as a 'Phase'. Now in it's sixth year, the Hopper is under development by the Phase VI Team, seen below.</p>
+                <div class="row">
+                    <div class="col s12 m10 offset-m1 l4 offset-l1">
+                        <div class="card-panel grey lighten-5 z-depth-1 contact-card">
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="/img/jack.jpg" alt="" class="circle small-img responsive-image">
+                                </div>
+                                <div class="col s9">
+                                    <h5 class="blue-text">Jack Tyler</h5>
+                                    <p class="grey-text">Phase VI Lead</p>
+                                </div>
                             </div>
-                            <div class="col s9">
-                                <h5 class="blue-text">Jack Tyler</h5>
-                                <p class="grey-text">Phase VI Lead</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m10 offset-m1 l4 offset-l2">
+                        <div class="card-panel grey lighten-5 z-depth-1 contact-card">
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="/img/duncan.jpg" alt="" class="circle small-img responsive-image">
+                                </div>
+                                <div class="col s9">
+                                    <h5 class="blue-text">Duncan R Hamill</h5>
+                                    <p class="grey-text">Engineer</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s4 offset-s2">
-                    <div class="card-panel grey lighten-5 z-depth-1 contact-card">
-                        <div class="row valign-wrapper">
-                            <div class="col s3">
-                                <img src="/img/duncan.jpg" alt="" class="circle small-img responsive-image">
-                            </div>
-                            <div class="col s9">
-                                <h5 class="blue-text">Duncan R Hamill</h5>
-                                <p class="grey-text">Engineer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row contact-row">
-                <div class="col s4 offset-s1">
-                    <div class="card-panel grey lighten-5 z-depth-1 contact-card">
-                        <div class="row valign-wrapper">
-                            <div class="col s3">
-                                <img src="/img/adrian.jpg" alt="" class="circle small-img responsive-image">
-                            </div>
-                            <div class="col s9">
-                                <h5 class="blue-text">Adrian Dumitrescu</h5>
-                                <p class="grey-text">Manufacturing Specialist</p>
+                <div class="row contact-row">
+                    <div class="col s12 m10 offset-m1 l4 offset-l1">
+                        <div class="card-panel grey lighten-5 z-depth-1 contact-card">
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="/img/adrian.jpg" alt="" class="circle small-img responsive-image">
+                                </div>
+                                <div class="col s9">
+                                    <h5 class="blue-text">Adrian Dumitrescu</h5>
+                                    <p class="grey-text">Manufacturing Specialist</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col s4 offset-s2">
-                    <div class="card-panel grey lighten-5 z-depth-1 contact-card">
-                        <div class="row valign-wrapper">
-                            <div class="col s3">
-                                <img src="/img/boateng.jpg" alt="" class="circle small-img responsive-image">
-                            </div>
-                            <div class="col s9">
-                                <h5 class="blue-text">Boateng Opoku-Yeboah</h5>
-                                <p class="grey-text">Electronics Specialist</p>
+                    <div class="col s12 m10 offset-m1 l4 offset-l2">
+                        <div class="card-panel grey lighten-5 z-depth-1 contact-card">
+                            <div class="row valign-wrapper">
+                                <div class="col s3">
+                                    <img src="/img/boateng.jpg" alt="" class="circle small-img responsive-image">
+                                </div>
+                                <div class="col s9">
+                                    <h5 class="blue-text">Boateng Opoku-Yeboah</h5>
+                                    <p class="grey-text">Electronics Specialist</p>
+                                </div>
                             </div>
                         </div>
                     </div>

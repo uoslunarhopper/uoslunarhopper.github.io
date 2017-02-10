@@ -12,11 +12,20 @@
     width: 64px;
   }
 
-  .contact-card{
+  .contact-card { 
     height: 130px;
   }
 
-  .banner{
+  .banner {
     height: auto;
     width: 100%;
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .page-footer {
+    padding-top: 0 !important;
   }
