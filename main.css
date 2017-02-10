@@ -29,3 +29,8 @@
   .page-footer {
     padding-top: 0 !important;
   }
+
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+  }
